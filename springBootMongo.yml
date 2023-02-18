@@ -25,6 +25,7 @@ metadata:
   namespace: dev
 spec:
   storageClassName: manual
+  persistentVolumeReclaimPolicy: Delete
   capacity:
     storage: 1Gi
   accessModes:
